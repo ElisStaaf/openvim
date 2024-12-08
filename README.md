@@ -1,6 +1,8 @@
 # OpenVim
 OpenVim is a text/code editor written in C that's focused on being as minimal
-as possible, yet useful enough to be someones primary editor!
+as possible, yet useful enough to be someones primary editor! It includes many
+quality of life features such as syntax highlighting, find and replace and much,
+much more. It's primarily just a passion project, but usable as a real editor!
 
 [![OpenVim](https://raw.githubusercontent.com/ElisStaaf/openvim/main/prod/code.png)](/)
 
