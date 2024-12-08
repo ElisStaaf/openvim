@@ -45,6 +45,7 @@ syntax_t st_init(const char *filename) {
     if (!strcasecmp(filename, ".h") || !strcasecmp(filename, ".c") ||
         !strcasecmp(filename, ".hh") || !strcasecmp(filename, ".cc") ||
         !strcasecmp(filename, ".hpp") || !strcasecmp(filename, ".cpp") ||
+        !strcasecmp(filename, ".hxx") || !strcasecmp(filename, ".cxx") ||
         !strcasecmp(filename, ".ij")) {
       return (syntax_t) {
         .lang = "C/C++",
