@@ -15,6 +15,13 @@ cd openvim
 ./install.sh # If you want to install to /usr/local/bin
 ```
 
+## Out Of The Box Features
+* Syntax highlighting
+* File tree
+* Configuration
+* Search and replace
+* Keyboard shortcuts
+
 ## License
 This project is primarily licensed under the Apache 2.0 License, see [LICENSE](/LICENSE)
 for further details on the matter.
