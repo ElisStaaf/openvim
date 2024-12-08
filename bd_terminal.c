@@ -130,7 +130,7 @@ void bd_terminal_draw(bd_view_t *view) {
       io_printf(IO_CLEAR_LINE);
       
       io_cursor(bd_width - 2, i + 2);
-      io_printf(IO_SHADOW_1 ":");
+      io_printf(IO_SHADOW_1 "~");
     } else {
       bd_line_t line = terminal->lines[y];
       

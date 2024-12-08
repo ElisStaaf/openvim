@@ -858,7 +858,7 @@ void bd_text_draw(bd_view_t *view) {
       }
       
       io_cursor(bd_width - 2, 2 + i);
-      io_printf(IO_SHADOW_1 ":");
+      io_printf(IO_SHADOW_1 "~");
     }
     
     int scroll_start_y = (text->scroll.y * (bd_height - 2)) / (text->count + (bd_height - 2));
