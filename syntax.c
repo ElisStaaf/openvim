@@ -100,7 +100,7 @@ syntax_t st_init(const char *filename) {
     }
     
     if (!strcasecmp(filename, ".sh") || !strcasecmp(filename, ".bashrc") ||
-        !strcasecmp(filename, ".zshrc")) {
+        !strcasecmp(filename, ".zshrc") || !strcasecmp(filename, ".shrc")) {
       return (syntax_t) {
         .lang = "sh/bash script",
         .f_depth = st_depth,
