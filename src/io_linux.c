@@ -22,7 +22,7 @@
 static struct termios old_termios;
 static int mouse_down = 0;
 
-const char *io_config = "~/.openvimrc";
+const char *io_config = "~/.openvim.cfg";
 
 void io_init(void) {
   tcgetattr(STDIN_FILENO, &old_termios);

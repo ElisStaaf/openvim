@@ -3,6 +3,6 @@
 bash build.sh
 sudo cp openvim /usr/local/bin/
 
-if [ -f "~/.openvimrc" ]; then
-    rm ~/.openvimrc
+if [ -f "~/.ov.cfg" ]; then
+    rm ~/.ov.cfg
 fi
