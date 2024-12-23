@@ -1,7 +1,7 @@
 #include <string.h>
 #include <openvim.h>
+#include <openvim/io.h>
 #include <time.h>
-#include <io.h>
 
 void bd_global_draw(void) {
   io_cursor(0, 0);

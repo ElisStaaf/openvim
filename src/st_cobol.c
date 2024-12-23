@@ -1,6 +1,6 @@
 #include <string.h>
-#include <syntax.h>
 #include <ctype.h>
+#include <openvim/syntax.h>
 
 int st_cobol_depth(const char *line, int length) {
   char in_string = '\0';

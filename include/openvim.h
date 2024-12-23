@@ -1,9 +1,9 @@
 #ifndef __BEDD_H__
 #define __BEDD_H__
 
-#include <syntax.h>
 #include <time.h>
-#include <io.h>
+#include <openvim/io.h>
+#include <openvim/syntax.h>
 
 typedef struct bd_config_t bd_config_t;
 typedef struct bd_cursor_t bd_cursor_t;

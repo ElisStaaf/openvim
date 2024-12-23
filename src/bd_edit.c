@@ -1,7 +1,7 @@
 #include <string.h>
-#include <theme.h>
 #include <openvim.h>
-#include <io.h>
+#include <openvim/io.h>
+#include <openvim/theme.h>
 
 static const int __edit_limits[] = {
   1, 16,

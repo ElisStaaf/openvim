@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include <match.h>
+#include <openvim/match.h>
 
 int mt_match(const char *text, int length, const char *query, const char *replace_input, char *replace_output) {
   int offset = 0;

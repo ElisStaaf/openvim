@@ -3,9 +3,9 @@
 #define STBI_NO_STDIO
 #define STBI_NO_HDR
 
-#include <stb_image.h>
 #include <stdint.h>
 #include <openvim.h>
+#include <openvim/stb_image.h>
 
 typedef struct bd_image_t bd_image_t;
 

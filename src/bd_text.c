@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <string.h>
-#include <syntax.h>
 #include <ctype.h>
-#include <match.h>
 #include <openvim.h>
-#include <io.h>
+#include <openvim/syntax.h>
+#include <openvim/match.h>
+#include <openvim/io.h>
 
 typedef struct bd_line_t bd_line_t;
 typedef struct bd_text_t bd_text_t;

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <openvim.h>
-#include <io.h>
+#include <openvim/io.h>
 
 bd_view_t *bd_view_add(const char *title, int type, ...) {
   bd_views = realloc(bd_views, (bd_view_count + 1) * sizeof(bd_view_t));

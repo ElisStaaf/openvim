@@ -1,6 +1,6 @@
 #include <string.h>
-#include <syntax.h>
 #include <ctype.h>
+#include <openvim/syntax.h>
 
 static int is_ident(char chr) {
   return isalnum(chr) || strchr("_$", chr);

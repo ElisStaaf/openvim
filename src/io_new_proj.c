@@ -12,7 +12,7 @@
 #include <unistd.h>
 #include <ctype.h>
 #include <stdio.h>
-#include <io.h>
+#include <openvim/io.h>
 
 static struct termios old_termios;
 static int mouse_down = 0;

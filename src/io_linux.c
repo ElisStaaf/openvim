@@ -15,9 +15,9 @@
 #include <ctype.h>
 #include <fcntl.h>
 #include <stdio.h>
-#include <theme.h>
 #include <pty.h>
-#include <io.h>
+#include <openvim/io.h>
+#include <openvim/theme.h>
 
 static struct termios old_termios;
 static int mouse_down = 0;

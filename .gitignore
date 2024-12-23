@@ -54,3 +54,4 @@ dkms.conf
 
 # OpenVim Specific Files
 openvim
+!openvim/

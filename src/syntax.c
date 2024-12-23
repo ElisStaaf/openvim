@@ -1,6 +1,6 @@
 #include <string.h>
 #include <strings.h>
-#include <syntax.h>
+#include <openvim/syntax.h>
 
 // COBOL
 

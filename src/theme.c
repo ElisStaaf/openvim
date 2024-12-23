@@ -1,6 +1,6 @@
 #include <string.h>
-#include <theme.h>
 #include <openvim.h>
+#include <openvim/theme.h>
 
 static const char *__format_theme_17[] = {
   "\x1B[49m",

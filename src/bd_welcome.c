@@ -1,6 +1,6 @@
 #include <string.h>
 #include <openvim.h>
-#include <io.h>
+#include <openvim/io.h>
 
 void bd_welcome_draw(bd_view_t *view) {
   io_cursor(0, 2);

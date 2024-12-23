@@ -1,6 +1,6 @@
 #include <string.h>
 #include <openvim.h>
-#include <io.h>
+#include <openvim/io.h>
 
 bd_view_t *bd_views = NULL;
 int bd_view_count = 0, bd_view = 0;

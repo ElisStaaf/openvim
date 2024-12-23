@@ -1,6 +1,6 @@
-#include <theme.h>
+#include <openvim/theme.h>
+#include <openvim/io.h>
 #include <openvim.h>
-#include <io.h>
 
 bd_config_t bd_config = (bd_config_t) {
   .indent_width = 2,
